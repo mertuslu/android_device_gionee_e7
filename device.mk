@@ -167,7 +167,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libmm-omxcore \
-    libdivxdrmdecrypt \
     libOmxVdec \
     libOmxVdecHevc \
     libOmxVenc \
@@ -176,14 +175,7 @@ PRODUCT_PACKAGES += \
     libqdutils \
     libqdMetaData \
     libc2dcolorconvert \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxEvrcEnc \
-    libOmxQcelp13Enc \
-    libdashplayer \
-    qcmediaplayer
-    
-PRODUCT_BOOT_JARS += qcmediaplayer
+    libion
 
 # sensors
 PRODUCT_COPY_FILES += \
